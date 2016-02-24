@@ -3,6 +3,8 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
@@ -7745,6 +7747,11 @@ small {
 }
 
 .card-panel {
+
+    .ilike-blue-container {
+    @extend .blue-text, .text-lighten-4;
+  }
+
   transition: box-shadow .25s;
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
